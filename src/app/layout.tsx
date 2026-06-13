@@ -14,9 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BurgBuild",
-  description:
-    "Game tools and build planners — starting with NBA 2K26 MyPLAYER builds",
+  title: {
+    default: "BurgBuild",
+    template: "%s · BurgBuild",
+  },
+  description: "Tools and guides for the games we play",
 };
 
 export default function RootLayout({

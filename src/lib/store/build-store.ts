@@ -91,7 +91,7 @@ export const useBuildStore = create<BuildStore>()(
         })),
     }),
     {
-      name: "burgbuild",
+      name: "nba-2k26-build",
       version: 1,
       migrate: (persisted, version) => {
         const state = persisted as { build: BuildProfile };
