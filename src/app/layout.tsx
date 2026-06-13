@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NBA 2K26 Build Planner",
+  title: "BurgBuild",
   description:
-    "Plan MyPLAYER builds with badge eligibility, VC upgrades, and cap breaker optimization",
+    "Game tools and build planners — starting with NBA 2K26 MyPLAYER builds",
 };
 
 export default function RootLayout({

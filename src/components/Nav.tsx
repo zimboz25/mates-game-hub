@@ -16,7 +16,7 @@ export function Nav() {
     <nav className="border-b border-red-900/40 bg-[#0d0808]">
       <div className="mx-auto flex max-w-[1400px] items-center gap-6 px-4 py-2">
         <Link href="/" className="text-sm font-bold uppercase tracking-wider text-red-400">
-          2K26 Build Planner
+          BurgBuild
         </Link>
         {links.map((link) => (
           <Link

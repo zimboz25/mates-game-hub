@@ -4,11 +4,11 @@ export default function HomePage() {
   return (
     <main className="mx-auto flex max-w-3xl flex-1 flex-col justify-center px-4 py-16">
       <h1 className="mb-4 text-4xl font-bold text-accent">
-        NBA 2K26 Build Planner
+        BurgBuild
       </h1>
       <p className="mb-8 text-lg text-muted">
-        Input your MyPLAYER build and get auto-computed max potentials, badge
-        eligibility, VC upgrade suggestions, and cap breaker optimization.
+        Tools and guides for the games we play. Start with the NBA 2K26 build
+        planner — max potentials, badges, VC upgrades, and cap breakers.
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
