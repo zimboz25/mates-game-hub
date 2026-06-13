@@ -1,0 +1,872 @@
+[
+  {
+    "id": "astra",
+    "name": "Astra",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/2ce9b5ea-459a-410c-9ba2-4568856adfd9.png",
+    "role": "Controller",
+    "primaryColor": "#ff15da",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "gravity-well",
+        "name": "Gravity Well",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/349065fc-6635-48ce-a8e7-10089ce74f08.svg"
+      },
+      {
+        "id": "nova-pulse",
+        "name": "Nova Pulse",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/d7a6d634-7fc9-4453-b5bf-23903b8976ea.svg"
+      },
+      {
+        "id": "nebula",
+        "name": "Nebula",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a33c684d-6225-48f9-98f4-7dbcddb8aeab.svg"
+      },
+      {
+        "id": "cosmic-divide",
+        "name": "Cosmic Divide",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/90e4be57-839f-4b49-aa78-bd8a24f51da8.svg"
+      }
+    ]
+  },
+  {
+    "id": "breach",
+    "name": "Breach",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/07bdc3e3-68ca-4f0a-abde-9ecef1134b6d.png",
+    "role": "Initiator",
+    "primaryColor": "#dcb190",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "aftershock",
+        "name": "Aftershock",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/f98ac414-a87c-4bbc-a1fb-a485c6f130dc.svg"
+      },
+      {
+        "id": "flashpoint",
+        "name": "Flashpoint",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/063fe034-e1e1-4fbe-be9b-0e6e6f3623d9.svg"
+      },
+      {
+        "id": "fault-line",
+        "name": "Fault Line",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/78b31a24-896e-487d-8c34-1af012268198.svg"
+      },
+      {
+        "id": "rolling-thunder",
+        "name": "Rolling Thunder",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/5a5302aa-9df1-4e7c-89f1-61ee24d0ae9a.svg"
+      }
+    ]
+  },
+  {
+    "id": "brimstone",
+    "name": "Brimstone",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/6c9580b8-3858-46fc-ab27-369da1a7a447.png",
+    "role": "Controller",
+    "primaryColor": "#7fe5fb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "stim-beacon",
+        "name": "Stim Beacon",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/08ca373f-12f7-4d41-86c9-8845a335baf4.svg"
+      },
+      {
+        "id": "incendiary",
+        "name": "Incendiary",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/794983ca-4dc0-4d25-b69d-02dfd022d7f5.svg"
+      },
+      {
+        "id": "sky-smoke",
+        "name": "Sky Smoke",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/150b2b21-1001-46eb-afdc-33043f382759.svg"
+      },
+      {
+        "id": "orbital-strike",
+        "name": "Orbital Strike",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/8a970636-faef-492c-b746-df5a77e06c9b.svg"
+      }
+    ]
+  },
+  {
+    "id": "cypher",
+    "name": "Cypher",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/4de4d040-5751-400c-ac1c-8564d04e0cd9.png",
+    "role": "Sentinel",
+    "primaryColor": "#dee5e1",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "trapwire",
+        "name": "Trapwire",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/12733a71-189b-4c5f-90ec-66efc82cd3b5.svg"
+      },
+      {
+        "id": "cyber-cage",
+        "name": "Cyber Cage",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/6c5785f6-ea01-4faf-b511-7ceb7028f05a.svg"
+      },
+      {
+        "id": "spycam",
+        "name": "Spycam",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/6c4cb9f6-6166-4d45-b9a7-9bcadb1934bb.svg"
+      },
+      {
+        "id": "neural-theft",
+        "name": "Neural Theft",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/5fc82b40-2d85-4e43-bd93-b41d036bf1c0.svg"
+      },
+      {
+        "id": "cypher-setup",
+        "name": "Cypher Setup",
+        "icon": "https://resources.strats.gg/images/7904f08b-6789-479e-b904-67a01047d414.svg"
+      }
+    ]
+  },
+  {
+    "id": "jett",
+    "name": "Jett",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/8ee31eee-249f-4b26-8ec0-9a89a39d4c95.png",
+    "role": "Duelist",
+    "primaryColor": "#76cfdd",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "cloudburst",
+        "name": "Cloudburst",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/84fd08c7-a933-4a69-9ada-ac28599da870.svg"
+      },
+      {
+        "id": "updraft",
+        "name": "Updraft",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/1e74d511-41f9-4157-ab5a-3ad961cc39e5.svg"
+      },
+      {
+        "id": "tailwind",
+        "name": "Tailwind",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/ea6e71e9-8f73-4aa7-99da-ced514e3c4eb.svg"
+      },
+      {
+        "id": "blade-storm",
+        "name": "Blade Storm",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/5ca8493c-5fe6-4af0-aee9-2a5f5a29366b.svg"
+      }
+    ]
+  },
+  {
+    "id": "kay-o",
+    "name": "KAY/O",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/cc1966da-ab74-4d0b-9170-a45d5c18ccf9.png",
+    "role": "Initiator",
+    "primaryColor": "#7fe5fb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "frag-ment",
+        "name": "FRAG/MENT",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/359104d2-8825-450e-9834-f3ab6a5cdf15.svg"
+      },
+      {
+        "id": "flash-drive",
+        "name": "FLASH/DRIVE",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/8396db72-6b72-4983-ba11-5fb1d6fbdf3b.svg"
+      },
+      {
+        "id": "zero-point",
+        "name": "ZERO/POINT",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/abc20b45-908c-457d-9ac3-a1fa2acdef60.svg"
+      },
+      {
+        "id": "nullcmd",
+        "name": "NULLCMD",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3d4e0902-4feb-48be-a0cd-1319cead01c9.svg"
+      }
+    ]
+  },
+  {
+    "id": "killjoy",
+    "name": "Killjoy",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/292596ec-5003-473c-9fd5-a1f1741b55bc.png",
+    "role": "Sentinel",
+    "primaryColor": "#32cd32",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "nanoswarm",
+        "name": "Nanoswarm",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/2de16edf-f775-426c-8ac2-e3632b4ad5f7.svg"
+      },
+      {
+        "id": "alarmbot",
+        "name": "Alarmbot",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0eee8bd1-e974-4fd3-9131-15a764c5c0b7.svg"
+      },
+      {
+        "id": "turret",
+        "name": "Turret",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/593fd135-d97d-4f44-83d0-d9dd1e0423fb.svg"
+      },
+      {
+        "id": "lockdown",
+        "name": "Lockdown",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0273f388-3903-436a-ab43-80042fb4ab17.svg"
+      },
+      {
+        "id": "setup",
+        "name": "Killjoy Setup",
+        "icon": "https://resources.strats.gg/images/5c41f516-65af-4453-ad36-9184cebffb9d.svg"
+      }
+    ]
+  },
+  {
+    "id": "omen",
+    "name": "Omen",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/f1bf6497-3122-432d-b8bf-8802290e1d76.png",
+    "role": "Controller",
+    "primaryColor": "#7fe5fb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "shrouded-step",
+        "name": "Shrouded Step",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0ecc9bb8-a98e-4396-bcb3-dbc98098b81f.svg"
+      },
+      {
+        "id": "paranoia",
+        "name": "Paranoia",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/bc69441e-f619-485d-adcd-56c15105c2e4.svg"
+      },
+      {
+        "id": "dark-cover",
+        "name": "Dark Cover",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3f312411-6c40-4aff-b386-2706211516d4.svg"
+      },
+      {
+        "id": "from-the-shadows",
+        "name": "From the Shadows",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/7540ec62-620a-44e2-9d7f-65594159d9a2.svg"
+      }
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix ",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e2538d48-9af7-487b-b131-017ddbca3e34.png",
+    "role": "Duelist",
+    "primaryColor": "#f38e5e",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "blaze",
+        "name": "Blaze",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3d604907-26f0-4ab0-85d6-63dc50b9aca7.svg"
+      },
+      {
+        "id": "curveball",
+        "name": "Curveball",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a6895ce8-f876-46bc-84b2-72ef56eacdc3.svg"
+      },
+      {
+        "id": "hot-hands",
+        "name": "Hot Hands",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a9772092-4e74-40cd-a175-b5daa4e78700.svg"
+      },
+      {
+        "id": "run-it-back",
+        "name": "Run it Back",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/9c48b99e-4b1b-4948-a95d-3209f648e7bf.svg"
+      }
+    ]
+  },
+  {
+    "id": "raze",
+    "name": "Raze",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/5aa1c717-5b0c-429c-8cac-54ade54960a7.png",
+    "role": "Duelist",
+    "primaryColor": "#eabd74",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "boom-bot",
+        "name": "Boom Bot",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e0aa5fb4-5de0-4a87-96c5-4db2b4f523ed.svg"
+      },
+      {
+        "id": "blast-pack",
+        "name": "Blast Pack",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e03f3f2c-a03e-4631-ba08-8f0b6b550af1.svg"
+      },
+      {
+        "id": "double-blast-pack",
+        "name": "Double Blast Pack",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3f06b732-de0a-405e-9ca7-43b0fb7c7620.svg"
+      },
+      {
+        "id": "paint-shells",
+        "name": "Paint Shells",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/4ef47aa0-f185-4fb1-9072-1a2f1d2d28b6.svg"
+      },
+      {
+        "id": "showstopper",
+        "name": "Showstopper",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/6d1189e4-2441-40dd-b0bc-23bcfc3cb490.svg"
+      }
+    ]
+  },
+  {
+    "id": "reyna",
+    "name": "Reyna",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/82a0a5d8-17a8-4a60-bab1-bcc5e9743b64.png",
+    "role": "Duelist",
+    "primaryColor": "#ba15ad",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "leer",
+        "name": "Leer",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e8f2a06c-92cd-4d7a-9ffa-2fdfaae5ccf1.svg"
+      },
+      {
+        "id": "devour",
+        "name": "Devour",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/55c62277-8964-4825-b884-5fb594aa8d4c.svg"
+      },
+      {
+        "id": "dismiss",
+        "name": "Dismiss",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/984a09dc-4b53-4a47-9079-cd4bfd996448.svg"
+      },
+      {
+        "id": "empress",
+        "name": "Empress",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0acd08ed-f137-49dd-9457-478cfe6b79f2.svg"
+      }
+    ]
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3af80a3c-9184-4b4e-9dc1-caf86c7d87cb.png",
+    "role": "Sentinel",
+    "primaryColor": "#66e6d9",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "barrier-orb",
+        "name": "Barrier Orb",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/4d19af2b-2c68-49f3-bbda-e384c9cb73eb.svg"
+      },
+      {
+        "id": "slow-orb",
+        "name": "Slow Orb",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a9d66cbf-f6e4-483b-83c3-081e73bb3e59.svg"
+      },
+      {
+        "id": "resurrection",
+        "name": "Resurrection",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/08a729d0-8ecc-4cf4-8dfa-c291b80de969.svg"
+      },
+      {
+        "id": "heal-orb",
+        "name": "Heal Orb",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/9e8f4e56-c2f1-43f5-b920-c44f21f3ca06.svg"
+      }
+    ]
+  },
+  {
+    "id": "skye",
+    "name": "Skye",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/f7d778d1-4665-4ce4-b96d-9abf42b3e5e7.png",
+    "role": "Initiator",
+    "primaryColor": "#90aa75",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "regrowth",
+        "name": "Regrowth",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/bf255d60-6f82-4f8a-a143-2c1b41d20060.svg"
+      },
+      {
+        "id": "trailblazer",
+        "name": "Trailblazer",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a7ab3c8d-da4d-44ec-a66b-861837811287.svg"
+      },
+      {
+        "id": "guiding-light",
+        "name": "Guiding Light",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/afe34a44-e802-475a-aaab-548540e2d2a7.svg"
+      },
+      {
+        "id": "seekers",
+        "name": "Seekers",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e3e9304f-0a63-4377-b955-7c64934b6811.svg"
+      }
+    ]
+  },
+  {
+    "id": "sova",
+    "name": "Sova",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/d154bfa8-6eb0-4bcf-ada2-76d7e87427d2.png",
+    "role": "Initiator",
+    "primaryColor": "#7fe5fb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "owl-drone",
+        "name": "Owl Drone",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/2a5343bc-7a46-482e-9032-494aec306df7.svg"
+      },
+      {
+        "id": "shock-dart",
+        "name": "Shock Dart",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/e7237899-2093-4f19-b135-cc8e1dbd9766.svg"
+      },
+      {
+        "id": "double-shock-dart",
+        "name": "Double Shock Dart",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/185a25c4-51e4-4621-b42e-c1c3d0c75ee6.svg"
+      },
+      {
+        "id": "recon-dart",
+        "name": "Recon Dart",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/f1938d98-b4fe-4d09-96fe-6b431cd492ac.svg"
+      },
+      {
+        "id": "hunter-s-fury",
+        "name": "Hunter's Fury",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a492ee66-d545-4ef7-ab76-e6057da235d8.svg"
+      }
+    ]
+  },
+  {
+    "id": "viper",
+    "name": "Viper",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/ed7b4d28-f9cb-4162-95b6-fc00f1f1514e.png",
+    "role": "Controller",
+    "primaryColor": "#57d948",
+    "lineColor": "#ffff3c",
+    "utilities": [
+      {
+        "id": "snake-bite",
+        "name": "Snake Bite",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/b8962063-d246-4085-8d7b-7b1a9b33478e.svg"
+      },
+      {
+        "id": "poison-cloud",
+        "name": "Poison Cloud",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/93a59f60-497c-450c-83ba-a6bed003c1b8.svg"
+      },
+      {
+        "id": "toxic-screen",
+        "name": "Toxic Screen",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/2b450953-6072-43b1-bf7a-c5024b402741.svg"
+      },
+      {
+        "id": "viper-s-pit",
+        "name": "Viper's Pit",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/97692712-5cf9-4f5f-89c7-2ca8294cd603.svg"
+      }
+    ]
+  },
+  {
+    "id": "yoru",
+    "name": "Yoru",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/f0c54a19-585d-4476-8225-519a3ce41a9f.png",
+    "role": "Duelist",
+    "primaryColor": "#7fe5fb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "fakeout",
+        "name": "Fakeout",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/c16de461-0c8a-4bbe-9c42-ec5c978800cc.svg"
+      },
+      {
+        "id": "blindside",
+        "name": "Blindside",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/db917c41-f5e1-4bdc-a480-883d15b8f9b2.svg"
+      },
+      {
+        "id": "gatecrash",
+        "name": "Gatecrash",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/b040f60c-b893-4478-a5f5-8d15992b9118.svg"
+      },
+      {
+        "id": "dimensional-drift",
+        "name": "Dimensional Drift",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/cc5f4f25-581a-4b95-a601-ebc4b636eb10.svg"
+      }
+    ]
+  },
+  {
+    "id": "chamber",
+    "name": "Chamber",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/755c64dc-7162-4484-9f95-55240184c722.png",
+    "role": "Sentinel",
+    "primaryColor": "#ffeecb",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "trademark",
+        "name": "Trademark",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0baa9ac8-b582-4037-ac2b-33f611ec8051.svg"
+      },
+      {
+        "id": "headhunter",
+        "name": "Headhunter",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/780fd402-15c2-41e4-ba56-e80c525d31e7.svg"
+      },
+      {
+        "id": "rendezvous",
+        "name": "Rendezvous",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/cab1e405-ecd4-43e0-a880-76fe36c500e0.svg"
+      },
+      {
+        "id": "tour-de-force",
+        "name": "Tour De Force",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/4c56e722-66d5-41e9-b9c9-3393040ffbb2.svg"
+      }
+    ]
+  },
+  {
+    "id": "fade",
+    "name": "Fade",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a3de6398-dfb4-4b39-99a9-41c3a562c1d0.png",
+    "role": "Initiator",
+    "primaryColor": "#dee5e1",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "prowler",
+        "name": "Prowler",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/15607dbb-9638-48d4-bdb5-4189b9be2b6f.svg"
+      },
+      {
+        "id": "seize",
+        "name": "Seize",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/d2f9411e-e826-4203-965c-a9f90c54309e.svg"
+      },
+      {
+        "id": "haunt",
+        "name": "Haunt",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/db89fa89-97d4-47f3-8cea-a2c67dc779ad.svg"
+      },
+      {
+        "id": "nightfall",
+        "name": "Nightfall",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/45161558-ee49-4c63-b582-e4a743778a13.svg"
+      }
+    ]
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0cb96051-ffb9-4272-851f-92901ac5cf20.png",
+    "role": "Duelist",
+    "primaryColor": "#d5fffc",
+    "lineColor": "",
+    "utilities": [
+      {
+        "id": "fast-lane",
+        "name": "Fast Lane",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/69568c07-e4e1-4eb1-833f-594e6022a178.svg"
+      },
+      {
+        "id": "relay-bolt",
+        "name": "Relay Bolt",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/82a94f7d-fb74-4e13-b0a4-e3d906529a2e.svg"
+      },
+      {
+        "id": "high-gear",
+        "name": "High Gear",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/0ba1390e-9046-43d3-8f95-499e9ef529a6.svg"
+      },
+      {
+        "id": "overdrive",
+        "name": "Overdrive",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/675ee672-46ab-4e60-b7e4-e0283f2d8cf5.svg"
+      }
+    ]
+  },
+  {
+    "id": "harbor",
+    "name": "Harbor",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/c50f2e4a-d47a-4d5e-aea1-7b4b1ea5067a.png",
+    "role": "Controller",
+    "primaryColor": "#8fcaff",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "cascade",
+        "name": "Cascade",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3614d30b-5d5d-45fb-80f4-5a32f0ec8d6e.svg"
+      },
+      {
+        "id": "cove",
+        "name": "Cove",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/fdd31916-28c8-4256-8ed3-a0b815b5081e.svg"
+      },
+      {
+        "id": "high-tide",
+        "name": "High Tide",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/475c432a-aa15-4b4f-95e0-23bbe59cfa9e.svg"
+      },
+      {
+        "id": "reckoning",
+        "name": "Reckoning",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/a11565de-f889-472d-bb5c-1b1ecbfa8d4c.svg"
+      }
+    ]
+  },
+  {
+    "id": "gekko",
+    "name": "Gekko",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/c0da082f-929c-4384-bfc1-5bca003f7f8a.png",
+    "role": "Initiator",
+    "primaryColor": "#6a8d18",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "mosh-pit",
+        "name": "Mosh Pit",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/513bb077-c34e-4a28-b80f-9359cd23fc5f.svg"
+      },
+      {
+        "id": "wingman",
+        "name": "Wingman",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3baf3cc9-59a1-44fe-b6a1-f4d5caaa6d7d.svg"
+      },
+      {
+        "id": "dizzy",
+        "name": "Dizzy",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/fb62e2e6-47ad-475d-b443-a95f1e183240.svg"
+      },
+      {
+        "id": "thrash",
+        "name": "Thrash",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/d2f9a927-15fe-4826-8349-1f18d5704e15.svg"
+      }
+    ]
+  },
+  {
+    "id": "deadlock",
+    "name": "Deadlock",
+    "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/4ce6d257-af27-4005-b27d-7dd4f2e58af7.png",
+    "role": "Sentinel",
+    "primaryColor": "#dee5e1",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "gravnet",
+        "name": "Gravnet",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/3640a552-f825-4696-b8f8-5e30d0a3432c.svg"
+      },
+      {
+        "id": "sonic-sensor",
+        "name": "Sonic Sensor",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/b89c8e57-fc6a-43b4-b50b-96e776060e9d.svg"
+      },
+      {
+        "id": "barrier-mesh",
+        "name": "Barrier Mesh",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/510d9a47-5a84-4769-9400-17cb6c44ab5f.svg"
+      },
+      {
+        "id": "annihilation",
+        "name": "Annihilation",
+        "icon": "https://s3-us-east-2.amazonaws.com/strats-gg/images/585cdfe8-8a5b-4771-9131-f8cb867ff265.svg"
+      },
+      {
+        "id": "deadlock-setup",
+        "name": "Deadlock Setup",
+        "icon": "https://resources.strats.gg/images/899f2c60-58ab-4f03-8c47-ba4c2aaca1e4.svg"
+      }
+    ]
+  },
+  {
+    "id": "iso",
+    "name": "Iso",
+    "icon": "https://resources.strats.gg/images/f3e89664-7c6f-413b-b9d9-0bda2903522c.png",
+    "role": "Duelist",
+    "primaryColor": "#d5a1ff",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "undercut",
+        "name": "Undercut",
+        "icon": "https://resources.strats.gg/images/52629fb3-fad0-49f8-b22a-15298bbf1eee.svg"
+      },
+      {
+        "id": "double-tap",
+        "name": "Double Tap",
+        "icon": "https://resources.strats.gg/images/50d8e8ef-3b9d-4e61-8ba5-ef6e05e0bcf8.svg"
+      },
+      {
+        "id": "contingency",
+        "name": "Contingency",
+        "icon": "https://resources.strats.gg/images/7adcadcd-3a3d-42bb-be04-3ea860f41926.svg"
+      },
+      {
+        "id": "kill-contract",
+        "name": "Kill Contract",
+        "icon": "https://resources.strats.gg/images/05b64743-5752-4c47-a1cf-b971be55d667.svg"
+      }
+    ]
+  },
+  {
+    "id": "clove",
+    "name": "Clove",
+    "icon": "https://resources.strats.gg/images/685bf82b-7ee7-497a-ac1e-b096c1db59b8.png",
+    "role": "Controller",
+    "primaryColor": "#d4cdf7",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "pick-me-up",
+        "name": "Pick Me Up",
+        "icon": "https://resources.strats.gg/images/ee3ba526-5015-4f5c-8e8e-878be3bf75ce.svg"
+      },
+      {
+        "id": "meddle",
+        "name": "Meddle",
+        "icon": "https://resources.strats.gg/images/fefcac62-377c-4a75-a28b-0e87a80f446d.svg"
+      },
+      {
+        "id": "ruse",
+        "name": "Ruse",
+        "icon": "https://resources.strats.gg/images/c0de44bc-467b-4b24-94ec-f16561a6f81e.svg"
+      },
+      {
+        "id": "not-dead-yet",
+        "name": "Not Dead Yet",
+        "icon": "https://resources.strats.gg/images/3ff87683-de9f-40b0-b39b-30f286dcad10.svg"
+      }
+    ]
+  },
+  {
+    "id": "vyse",
+    "name": "Vyse",
+    "icon": "https://resources.strats.gg/images/858d08a1-3322-4bbb-b89c-d7e19ee0ab34.png",
+    "role": "Sentinel",
+    "primaryColor": "#d5a1ff",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "arc-rose",
+        "name": "Razorvine",
+        "icon": "https://resources.strats.gg/images/fdfc689a-4183-42e6-8e49-e8556980d841.svg"
+      },
+      {
+        "id": "shear",
+        "name": "Shear",
+        "icon": "https://resources.strats.gg/images/0746145c-24e8-4b59-b087-3583ef55ae02.svg"
+      },
+      {
+        "id": "razorvine",
+        "name": "Arc Rose",
+        "icon": "https://resources.strats.gg/images/46aadac7-4bce-4348-982a-261b668eaf14.svg"
+      },
+      {
+        "id": "steel-garden",
+        "name": "Steel Garden",
+        "icon": "https://resources.strats.gg/images/3eb6a30b-0ed4-43c6-84e2-5ecd13f2031e.svg"
+      },
+      {
+        "id": "vyse-setup",
+        "name": "Vyse Setup",
+        "icon": "https://resources.strats.gg/images/7fe18ad1-6bec-4266-a721-d8fa2fcc834d.svg"
+      }
+    ]
+  },
+  {
+    "id": "tejo",
+    "name": "Tejo",
+    "icon": "https://resources.strats.gg/images/3acfd23c-e175-4fa3-b9bb-fb5e13f5a15f.png",
+    "role": "Initiator",
+    "primaryColor": "#fac97d",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "crab-thing",
+        "name": "Stealth Drone",
+        "icon": "https://resources.strats.gg/images/b29e6ad2-a432-468c-ac9b-0bb505c56324.png"
+      },
+      {
+        "id": "other-test",
+        "name": "Special Delivery",
+        "icon": "https://resources.strats.gg/images/d7fb2980-43c1-4e93-b1e3-df52ee91d727.webp"
+      },
+      {
+        "id": "ttt",
+        "name": "Guided Salvo",
+        "icon": "https://resources.strats.gg/images/e46ae319-3bfd-4007-8819-de58e4331661.webp"
+      },
+      {
+        "id": "tttt",
+        "name": "Armageddon",
+        "icon": "https://resources.strats.gg/images/dfe2a08a-cc04-4003-96de-f55ce0dea314.webp"
+      }
+    ]
+  },
+  {
+    "id": "waylay",
+    "name": "Waylay",
+    "icon": "https://resources.strats.gg/images/5dc0ccc4-a228-4e81-be8a-44073b665e8d.png",
+    "role": "Duelist",
+    "primaryColor": "#aa42ff",
+    "lineColor": "",
+    "utilities": [
+      {
+        "id": "saturate",
+        "name": "Saturate",
+        "icon": "https://resources.strats.gg/images/5bfa5b43-fc8f-496a-b475-da5126464e52.png"
+      },
+      {
+        "id": "light-speed",
+        "name": "Light Speed",
+        "icon": "https://resources.strats.gg/images/7fe46492-6e9a-42e1-be41-ff8496a73f01.png"
+      },
+      {
+        "id": "refract",
+        "name": "Refract",
+        "icon": "https://resources.strats.gg/images/82705151-3918-494f-b360-044b30ba03c2.png"
+      },
+      {
+        "id": "convergent-paths",
+        "name": "Convergent Paths",
+        "icon": "https://resources.strats.gg/images/3bc2bdf1-bd50-4ba8-8d2f-63fb99c34025.png"
+      }
+    ]
+  },
+  {
+    "id": "veto",
+    "name": "Veto",
+    "icon": "https://resources.strats.gg/images/d889d6e3-5642-4d09-b8b2-52eccae91f5a.png",
+    "role": "Sentinel",
+    "primaryColor": "#36b5d3",
+    "lineColor": "#ffff00",
+    "utilities": [
+      {
+        "id": "crosscut",
+        "name": "Crosscut",
+        "icon": "https://resources.strats.gg/images/7b843ebe-e667-43dc-8cbb-01e813f5189d.webp"
+      },
+      {
+        "id": "chokehold",
+        "name": "Chokehold",
+        "icon": "https://resources.strats.gg/images/f9737e9b-8ece-45dc-8bb5-a17f18cb9f73.webp"
+      },
+      {
+        "id": "interceptor",
+        "name": "Interceptor",
+        "icon": "https://resources.strats.gg/images/9a0d81a1-23ce-4fb4-8207-72b228659f9b.webp"
+      },
+      {
+        "id": "evolution",
+        "name": "Evolution",
+        "icon": "https://resources.strats.gg/images/bd3f59f2-78f9-47a6-a096-30e437cd7acd.webp"
+      }
+    ]
+  }
+]

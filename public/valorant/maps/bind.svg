@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Bind top-down schematic">
+  <rect width="100" height="100" fill="#1a2733"/>
+  <rect x="8" y="8" width="84" height="84" rx="2" fill="#243447" stroke="#3d5166" stroke-width="0.5"/>
+  <!-- A site -->
+  <rect x="8" y="8" width="32" height="36" fill="#2a3544" stroke="#ff4655" stroke-width="0.6"/>
+  <text x="24" y="28" text-anchor="middle" fill="#ff4655" font-size="4" font-family="sans-serif" font-weight="bold">A</text>
+  <!-- B site -->
+  <rect x="60" y="8" width="32" height="36" fill="#2a3544" stroke="#ff4655" stroke-width="0.6"/>
+  <text x="76" y="28" text-anchor="middle" fill="#ff4655" font-size="4" font-family="sans-serif" font-weight="bold">B</text>
+  <!-- Teleporter hints -->
+  <circle cx="50" cy="50" r="6" fill="#334155" stroke="#64748b" stroke-width="0.5"/>
+  <text x="50" y="51.5" text-anchor="middle" fill="#94a3b8" font-size="2.5" font-family="sans-serif">TP</text>
+  <!-- A short / showers -->
+  <rect x="8" y="44" width="20" height="24" fill="#334155" stroke="#475569" stroke-width="0.3"/>
+  <!-- B long -->
+  <rect x="72" y="44" width="20" height="24" fill="#334155" stroke="#475569" stroke-width="0.3"/>
+  <rect x="30" y="72" width="40" height="20" fill="#1e293b" stroke="#475569" stroke-width="0.4"/>
+  <text x="50" y="84" text-anchor="middle" fill="#64748b" font-size="3" font-family="sans-serif">ATK SPAWN</text>
+</svg>
