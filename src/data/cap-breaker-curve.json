@@ -1,5 +1,5 @@
 {
-  "description": "Heuristic cap breaker boost based on gap to absolute max potential",
+  "description": "Legacy fallback tiers (superseded by cap-breaker-lookup.json). Kept for calibration refinement UI.",
   "rules": [
     { "minGap": 0, "maxGap": 2, "boost": 1 },
     { "minGap": 3, "maxGap": 10, "boost": 2 },

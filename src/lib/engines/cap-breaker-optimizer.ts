@@ -71,7 +71,7 @@ function simulateAllocation(
       } else {
         return null;
       }
-      to = applyCapBreaker(to, maxPotentials[key]);
+      to = applyCapBreaker(to, maxPotentials[key], already + i);
     }
 
     planAllocations.push({
